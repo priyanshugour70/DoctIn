@@ -1,6 +1,6 @@
 ## DocIn
 
-###### Statement about the Problem
+##### Statement about the Problem
 The healthcare industry faces a range of challenges that make it difficult for patients to access
 medical care. One of the most significant challenges is the lack of accessibility to healthcare
 services, particularly for patients who are unable to visit a doctor's office due to various
@@ -27,7 +27,7 @@ healthcare industry. It provides a platform for patients and doctors to connect,
 and coordinate care, improving the accessibility and quality of healthcare services.
 
 
-###### Why is the Particular topic chosen
+##### Why is the Particular topic chosen
 The healthcare industry is one of the most critical sectors that plays a crucial role in the well-
 being of individuals and society as a whole. Unfortunately, access to quality healthcare
 remains a significant challenge for many people, particularly those who are unable to visit a
@@ -49,7 +49,7 @@ challenges in the healthcare industry and make a significant impact on the lives
 who face difficulty accessing healthcare services.
 
 
-###### Objective and Scope
+##### Objective and Scope
 Objective: The primary objective of the proposed healthcare software is to provide a
 platform for patients who are unable to visit a doctor's office due to various reasons, such as
 being physically challenged or having other medical conditions, to access medical services
