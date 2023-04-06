@@ -120,7 +120,7 @@ notifications and alerts features. The software will comply with all relevant he
 regulations and standards to ensure the confidentiality and security of patient data.
 
 
-#####Methodology
+##### Methodology
 The development of a software application that links patients and doctors through the use
 of maps is a complex and challenging process that requires careful planning and
 implementation. In order to create an effective solution, it is important to adopt a thorough
@@ -174,14 +174,14 @@ and policy makers, are critical to the success of the application. Finally, ongo
 and support are essential to ensure that the application remains effective and up-to-date.
 
 
-#####Hardware & Software
+##### Hardware & Software
 
-Recommended Operating Systems
+###### Recommended Operating Systems
 Windows: 7 or newer
 MAC: OS X v10.7 or higher
 Linux: Ubuntu
 
-Hardware Requirements
+###### Hardware Requirements
 We strongly recommend a computer fewer than 7 years old.
 Processor: Minimum 1 GHz; Recommended 2GHz or more
 Ethernet connection (LAN) OR a wireless adapter (Wi-Fi)
@@ -189,8 +189,8 @@ Hard Drive: Minimum 32 GB; Recommended 64 GB or more
 Memory (RAM): Minimum 1 GB; Recommended 4 GB or above
 Sound card w/speakers
 Some classes require a camera and microphone
-Software Requirements
 
+###### Software Requirements
 Recommended Software
 Google Chrome
 Firefox
