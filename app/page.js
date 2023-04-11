@@ -1,7 +1,14 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 export default function Home() {
   return (
     <main>
-     hey I am nextJS
+      <Navbar />
+
+        hey I m Home Page
+
+      <Footer />
     </main>
   )
 }
