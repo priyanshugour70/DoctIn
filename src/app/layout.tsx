@@ -1,6 +1,8 @@
 "use client";
 import "./globals.css";
 import { ThemeProvider } from "@material-tailwind/react";
+import Navbar from "@/Components/Navbar"
+import Footer from "@/Components/Footer";
 
 const metadata = {
     title: "Create Next App",
@@ -15,7 +17,11 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <ThemeProvider>{children}</ThemeProvider>
+                <ThemeProvider>
+                    <Navbar />
+                    {children}
+                    <Footer />
+                </ThemeProvider>
             </body>
         </html>
     );
