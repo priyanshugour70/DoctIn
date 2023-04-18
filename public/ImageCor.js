@@ -8,6 +8,7 @@ import mypic5 from "./Images/CorosaleS4.svg";
 import mypic6 from "./Images/Card1.png";
 import mypic7 from "./Images/Card2.png";
 import mypic8 from "./Images/Card3.png";
+import LogInImg from "./Images/LogIn1.webp";
 
 
 export const CorosaleF1 = (props) => {
@@ -103,6 +104,16 @@ export const Card3 = (props) => {
     return(
         <Image 
             src={mypic8} 
+            alt="gallery"
+            className="block rounded-lg object-cover object-center"
+        />
+    ) 
+};
+
+export const LogIn1 = (props) => {
+    return(
+        <Image 
+            src={LogInImg} 
             alt="gallery"
             className="block rounded-lg object-cover object-center"
         />
