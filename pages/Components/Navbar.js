@@ -89,7 +89,7 @@ function ProfileMenu() {
                 {profileMenuItems.map(({ label, icon, lnk }, key) => {
                     const isLastItem = key === profileMenuItems.length - 1;
                     return (
-                        <Link href={lnk}>
+                        <Link key={label} href={lnk}>
                             <MenuItem
                                 key={label}
                                 onClick={closeMenu}
@@ -153,7 +153,7 @@ function NavListMenu() {
     };
 
     const renderItems = navListMenuItems.map(({ title, description, lnk }) => (
-        <Link href={lnk}>
+        <Link href={lnk} key={title}>
             <a key={title}>
                 <MenuItem>
                     <Typography variant="h6" color="blue-gray" className="mb-1">
@@ -249,12 +249,38 @@ const navListItems = [
     },
 ];
 
+// function NavList() {
+//     return (
+//         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
+//             <NavListMenu />
+//             {navListItems.map(({ label, icon, lnk }, key) => (
+//                 <Link href={lnk}>
+//                     <Typography
+//                         key={label}
+//                         as="a"
+//                         variant="small"
+//                         color="blue-gray"
+//                         className="font-normal"
+//                     >
+//                         <MenuItem className="flex items-center gap-2 lg:rounded-full">
+//                             {React.createElement(icon, {
+//                                 className: "h-[18px] w-[18px]",
+//                             })}{" "}
+//                             {label}
+//                         </MenuItem>
+//                     </Typography>
+//                 </Link>
+//             ))}
+//         </ul>
+//     );
+// }
+
 function NavList() {
     return (
         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
             <NavListMenu />
             {navListItems.map(({ label, icon, lnk }, key) => (
-                <Link href={lnk}>
+                <Link key={key} href={lnk}>
                     <Typography
                         key={label}
                         as="a"
@@ -274,6 +300,7 @@ function NavList() {
         </ul>
     );
 }
+
 
 export default function ComplexNavbar() {
     const [isNavOpen, setIsNavOpen] = React.useState(false);
