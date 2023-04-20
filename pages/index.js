@@ -1,16 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import ImageCor, {
-    CorosaleF1,
-    CorosaleF2,
-    CorosaleS1,
-    CorosaleS2,
-    CorosaleS3,
-    CorosaleS4,
-    Card1,
-    Card2,
-    Card3,
-} from "../public/ImageCor";
+import ImageCor, {CorosaleF1,CorosaleF2,CorosaleS1,CorosaleS2,CorosaleS3,CorosaleS4,Card1,Card2,Card3,} from "../public/ImageCor";
 import Link from "next/link";
 
 export default function Home() {
@@ -42,7 +32,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <>
+            <div>
                 {/* component */}
                 <div className="p-20 flex flex-wrap items-center justify-center">
                     <section className="dark:bg-gray-800 dark:text-gray-100">
@@ -210,7 +200,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-            </>
+            </div>
         </div>
     );
 }
