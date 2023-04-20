@@ -35,3 +35,31 @@ export default MyApp
 
 
                     // mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6
+
+
+
+
+  //                   <i className="fas fa-map-marker-alt pt-2 pr-2">
+  //   <i className="fas fa-phone-alt pt-2 pr-2">
+  //     <i className="fab fa-facebook-f text-blue-900">
+  //       <i className="fab fa-linkedin-in text-blue-900">
+  //         {/* BUY ME A PIZZA AND HELP SUPPORT OPEN-SOURCE RESOURCES */}
+  //         <div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
+  //           <div>
+  //             <a
+  //               title="Buy me a pizza"
+  //               href="https://www.buymeacoffee.com/Dekartmc"
+  //               target="_blank"
+  //               className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
+  //             >
+  //               <img
+  //                 className="object-cover object-center w-full h-full rounded-full"
+  //                 src="https://img.icons8.com/emoji/48/000000/pizza-emoji.png"
+  //               />
+  //             </a>
+  //           </div>
+  //         </div>
+  //       </i>
+  //     </i>
+  //   </i>
+  // </i>
