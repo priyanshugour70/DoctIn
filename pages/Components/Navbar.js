@@ -1,8 +1,20 @@
 "use client";
 import Link from "next/link";
-
+import ImageCor, { ProfileImg } from "../../public/ImageCor";
 import React from "react";
-import {Navbar,MobileNav,Typography,Button,Menu,MenuHandler,MenuList,MenuItem,Avatar,Card,IconButton,} from "@material-tailwind/react";
+import {
+    Navbar,
+    MobileNav,
+    Typography,
+    Button,
+    Menu,
+    MenuHandler,
+    MenuList,
+    MenuItem,
+    Avatar,
+    Card,
+    IconButton,
+} from "@material-tailwind/react";
 import {
     CubeTransparentIcon,
     UserCircleIcon,
@@ -17,6 +29,8 @@ import {
     Bars2Icon,
 } from "@heroicons/react/24/outline";
 
+import { HiCreditCard } from "react-icons/hi";
+
 // profile menu component
 const profileMenuItems = [
     {
@@ -28,6 +42,11 @@ const profileMenuItems = [
         label: "Edit Profile",
         icon: Cog6ToothIcon,
         lnk: "/User/EditProfile",
+    },
+    {
+        label: "Account",
+        icon: HiCreditCard,
+        lnk: "/Account",
     },
     {
         label: "Inbox",
@@ -63,7 +82,7 @@ function ProfileMenu() {
                         size="sm"
                         alt="candice wu"
                         className="border border-blue-500 p-0.5"
-                        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                        src="https://media.licdn.com/dms/image/D5603AQGHCJg_VKVHvQ/profile-displayphoto-shrink_800_800/0/1672745029677?e=1687392000&v=beta&t=tmHhTJafq6U7V8rnPupOWh2VIiWlH_ToEcyhrvX-QKs"
                     />
                     <ChevronDownIcon
                         strokeWidth={2.5}

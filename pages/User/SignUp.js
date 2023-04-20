@@ -112,7 +112,7 @@ const SignUp = () => {
                                         Sign Up with GitHub
                                     </span>
                                 </button>
-                                <div className="my-9 font-semibold text-sm text-slate-500 text-center md:text-left">
+                                <div className="my-9 font-semibold text-sm mb-20 text-slate-500 text-center md:text-left">
                                     Do you have an account?{" "}
                                     <span className="text-red-600 hover:underline hover:underline-offset-4">
                                     {" "}
