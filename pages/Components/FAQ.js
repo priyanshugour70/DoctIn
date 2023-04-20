@@ -84,14 +84,14 @@ const FAQ = () => {
                                 another specialist if needed. You can also
                                 consult doctors online if you simply require a
                                 second opinion recommendations. For instance, if
-                                you need a second opinion for your child's
+                                you need a second opinion for your child&apos;s
                                 vaccination schedule, you should consult a
                                 pediatrician who can provide you with a complete
                                 vaccination chart to follow. If you require a
                                 recommendation for your baby&apos;s diet, you
                                 should consult a pediatric-dietitian who can
                                 provide you with a personalized Indian baby food
-                                chart that caters to your child's nutritional
+                                chart that caters to your child&apos;s nutritional
                                 needs!
                             </AccordionBody>
                         </Accordion>
