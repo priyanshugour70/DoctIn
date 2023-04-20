@@ -175,27 +175,22 @@ function NavListMenu() {
         <React.Fragment>
             <Menu open={isMenuOpen} handler={setIsMenuOpen}>
                 <MenuHandler>
-
-                    <Typography
-                        as="a"
-                        variant="small"
-                        className="font-normal"
-                    >
-                    <Link href="/Doctors">
-                        <MenuItem
-                            {...triggers}
-                            className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
-                        >
-                            <Square3Stack3DIcon className="h-[18px] w-[18px]" />{" "}
-                            Doctor's{" "}
-                            <ChevronDownIcon
-                                strokeWidth={2}
-                                className={`h-3 w-3 transition-transform ${
-                                    isMenuOpen ? "rotate-180" : ""
-                                }`}
+                    <Typography as="a" variant="small" className="font-normal">
+                        <Link href="/Doctors">
+                            <MenuItem
+                                {...triggers}
+                                className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
+                            >
+                                <Square3Stack3DIcon className="h-[18px] w-[18px]" />
+                                Doctor&apos;s
+                                <ChevronDownIcon
+                                    strokeWidth={2}
+                                    className={`h-3 w-3 transition-transform ${
+                                        isMenuOpen ? "rotate-180" : ""
+                                    }`}
                                 />
-                        </MenuItem>
-                    </Link>
+                            </MenuItem>
+                        </Link>
                     </Typography>
                 </MenuHandler>
                 <MenuList
@@ -218,11 +213,12 @@ function NavListMenu() {
                     </ul>
                 </MenuList>
             </Menu>
-                <Link href="/Doctors" >
-            <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-                    <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Doctor's{" "}
-            </MenuItem>
-                </Link>
+            <Link href="/Doctors">
+                <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
+                    <Square3Stack3DIcon className="h-[18px] w-[18px]" />
+                    Doctor&apos;s
+                </MenuItem>
+            </Link>
             <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
                 {renderItems}
             </ul>
@@ -265,7 +261,7 @@ const navListItems = [
 //                         <MenuItem className="flex items-center gap-2 lg:rounded-full">
 //                             {React.createElement(icon, {
 //                                 className: "h-[18px] w-[18px]",
-//                             })}{" "}
+//                             })}
 //                             {label}
 //                         </MenuItem>
 //                     </Typography>
@@ -291,7 +287,7 @@ function NavList() {
                         <MenuItem className="flex items-center gap-2 lg:rounded-full">
                             {React.createElement(icon, {
                                 className: "h-[18px] w-[18px]",
-                            })}{" "}
+                            })}
                             {label}
                         </MenuItem>
                     </Typography>
@@ -300,7 +296,6 @@ function NavList() {
         </ul>
     );
 }
-
 
 export default function ComplexNavbar() {
     const [isNavOpen, setIsNavOpen] = React.useState(false);
@@ -334,7 +329,7 @@ export default function ComplexNavbar() {
                             </div>
                             <span className="text-2xl font-semibold text-blue-600">
                                 Doct
-                            </span>{" "}
+                            </span>
                             In
                         </div>
                     </Typography>
