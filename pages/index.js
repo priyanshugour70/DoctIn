@@ -101,7 +101,7 @@ export default function Home() {
                                 </span>
                                 <div className="flex justify-between">
                                     <span className="block font-semibold text-xl">
-                                        Doctor's
+                                        Doctor&apos;s
                                     </span>
                                 </div>
                             </div>

@@ -2,19 +2,7 @@
 import Link from "next/link";
 
 import React from "react";
-import {
-    Navbar,
-    MobileNav,
-    Typography,
-    Button,
-    Menu,
-    MenuHandler,
-    MenuList,
-    MenuItem,
-    Avatar,
-    Card,
-    IconButton,
-} from "@material-tailwind/react";
+import {Navbar,MobileNav,Typography,Button,Menu,MenuHandler,MenuList,MenuItem,Avatar,Card,IconButton,} from "@material-tailwind/react";
 import {
     CubeTransparentIcon,
     UserCircleIcon,
@@ -131,13 +119,13 @@ const navListMenuItems = [
         lnk: "/Doctors/GeneralMedicine",
     },
     {
-        title: "Cardiologist's",
+        title: "Cardiologists",
         description:
             "A cardiologist is a medical doctor who specializes in diagnosing and treating heart-related conditions and diseases.",
         lnk: "/Doctors/Cardiologist",
     },
     {
-        title: "Neurologist's",
+        title: "Neurologists",
         description:
             "A neurologist is a medical doctor who specializes in diagnosing and treating disorders of the nervous system, including the brain and spinal cord.",
         lnk: "/Doctors/Neurologist",

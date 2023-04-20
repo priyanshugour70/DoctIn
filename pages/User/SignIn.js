@@ -99,7 +99,7 @@ const SignIn = () => {
                         </button>
                     </div>
                     <div className="mt-9 font-semibold text-sm text-slate-500 text-center md:text-left">
-                        Don't have an account?{" "}
+                        Don&apos;t have an account?{" "}
                         <span className="text-red-600 hover:underline hover:underline-offset-4">
                             {" "}
                             <Link href="/User/SignUp">Register</Link>
