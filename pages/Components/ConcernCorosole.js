@@ -6,7 +6,6 @@ const ConcernCorosole = () => {
     return (
         <div>
             {/* component */}
-            <div className="px-20 pt-20 flex flex-wrap items-center justify-center">
                 <section className="dark:bg-gray-800 dark:text-gray-100">
                     <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
                         <p className="p-2 text-sm font-medium tracking-wider text-center uppercase">
@@ -17,6 +16,7 @@ const ConcernCorosole = () => {
                         </h2>
                     </div>
                 </section>
+            <div className="px-20 pt-4 pb-12 flex flex-wrap items-center justify-center">
 
                 <div className="flex-shrink-0 m-3 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg">
                     <svg

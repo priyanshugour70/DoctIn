@@ -3,21 +3,24 @@ import { ThemeProvider } from "@material-tailwind/react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import TopFooter from "./Components/TopFooter";
-import PopUp from "./Components/PopUp"
+import PopUp from "./Components/PopUp";
+ 
 
 function MyApp({ Component, pageProps }) {
     return (
-        <main>
-        <ThemeProvider>
-            <TopFooter/>
-            <Navbar />
-            <Component {...pageProps} />
-            <div className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
-            <PopUp />
-            </div>
-            <Footer />
-        </ThemeProvider>
-        </main>
+        <>
+            <main>
+                <ThemeProvider>
+                    <TopFooter />
+                    <Navbar />
+                    <Component {...pageProps} />
+                    <div className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
+                        <PopUp />
+                    </div>
+                    <Footer />
+                </ThemeProvider>
+            </main>
+        </>
     );
 }
 
