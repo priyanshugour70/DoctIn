@@ -49,14 +49,14 @@ const profileMenuItems = [
         lnk: "/Account",
     },
     {
-        label: "Inbox",
+        label: "About Us",
         icon: InboxArrowDownIcon,
-        lnk: "/User/Inbox",
+        lnk: "/Common/AboutUs",
     },
     {
-        label: "Help",
+        label: "Contact Us",
         icon: LifebuoyIcon,
-        lnk: "/Common/Help",
+        lnk: "/Common/ContactUs",
     },
     {
         label: "Sign In",
