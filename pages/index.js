@@ -3,7 +3,7 @@ import Image from "next/image";
 import Gallery from "./Components/Gallery";
 import ConcernCorosole from "./Components/ConcernCorosole";
 import ConsultCorosole from "./Components/ConsultCorosole";
-import WhyConsult from "./Components/WhyConsult";
+import ContactUs from "./Components/ContactUs";
 import TreatmentLifeCycle from "./Components/TreatmentLifeCycle";
 import FAQ from "./Components/FAQ";
 import DiscoutBanner from "./Components/DiscountBanner"
@@ -14,9 +14,9 @@ export default function Home() {
             <Gallery/>
             <ConcernCorosole/>
             <ConsultCorosole/>
-            <WhyConsult/>
             <TreatmentLifeCycle/>
             <DiscoutBanner/>
+            <ContactUs/>
             <FAQ/>
         </div>
     );
