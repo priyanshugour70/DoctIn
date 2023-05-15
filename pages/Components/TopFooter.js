@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 const TopFooter = () => {
     return (
@@ -5,34 +6,42 @@ const TopFooter = () => {
             <div className="max-w-screen-xl px-4 mx-auto">
                 <div className="pt-1  border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
                     <nav aria-label="Footer Navigation - Support">
-                        <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
+                        <ul className="flex flex-wrap justify-center underline gap-4 text-xs lg:justify-end">
                             <li>
-                                <a
+                                <Link
                                     href="#"
                                     className="text-gray-500 underline transition hover:opacity-75"
                                 >
                                     priyanshugournotes1@gmail.com
-                                </a>
+                                </Link>
                             </li>
-                            <li>
-                                <a
+                            {/* <li>
+                                <Link
                                     href="#"
-                                    className="text-gray-500 transition hover:opacity-75"
+                                    className="text-gray-500 transition underline hover:opacity-75"
                                 >
                                     +91 9098393937
-                                </a>
+                                </Link>
+                            </li> */}
+                            <li>
+                                <Link
+                                    className="text-gray-500 transition underline hover:opacity-75"
+                                    href="/Common/Privacy"
+                                >
+                                    Privacy and Policy
+                                </Link>
                             </li>
                         </ul>
                     </nav>
                     <ul className="flex justify-center gap-6 mt-1 sm:mt-0 lg:justify-end">
                         <li>
-                            <a
+                            <Link
                                 href="https://github.com/priyanshugour70"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-700 transition hover:opacity-75 hover:text-blue-600"
                             >
-                                <span className="sr-only">GitHub</span>
+                                {/* <span className="sr-only">GitHub</span> */}
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -45,16 +54,16 @@ const TopFooter = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="https://www.facebook.com/gourpriyanshu/"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-700 transition hover:opacity-75 hover:text-blue-600"
                             >
-                                <span className="sr-only">Facebook</span>
+                                {/* <span className="sr-only">Facebook</span> */}
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -67,16 +76,16 @@ const TopFooter = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="https://www.instagram.com/priyanshugour70/"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-700 transition hover:opacity-75 hover:text-blue-600"
                             >
-                                <span className="sr-only">Instagram</span>
+                                {/* <span className="sr-only">Instagram</span> */}
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -89,16 +98,16 @@ const TopFooter = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="https://twitter.com/Priyanshugour70"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-700 transition hover:opacity-75 hover:text-blue-600"
                             >
-                                <span className="sr-only">Twitter</span>
+                                {/* <span className="sr-only">Twitter</span> */}
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -107,7 +116,7 @@ const TopFooter = () => {
                                 >
                                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                                 </svg>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
