@@ -10,7 +10,7 @@ import DiscoutBanner from "./Components/DiscountBanner"
 
 export default function Home() {
     return (
-        <div className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
+        <div className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6 ">
             <Gallery/>
             <ConcernCorosole/>
             <ConsultCorosole/>
