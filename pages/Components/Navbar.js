@@ -238,17 +238,17 @@ const navListItems = [
     {
         label: "Medicine",
         icon: UserCircleIcon,
-        lnk: "/Medicine",
+        lnk: "./Medicine",
     },
     {
         label: "Video Consult",
         icon: CubeTransparentIcon,
-        lnk: "/VideoConsult",
+        lnk: "./VideoConsult",
     },
     {
         label: "Surgeries",
         icon: CodeBracketSquareIcon,
-        lnk: "/Surgeries",
+        lnk: "./Surgeries",
     },
 ];
 
@@ -318,7 +318,7 @@ export default function ComplexNavbar() {
     return (
         <Navbar className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
             <div className="relative mx-auto flex items-center text-blue-gray-900">
-                <Link href="/">
+                <Link href="./">
                     <Typography
                         as="a"
                         className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
