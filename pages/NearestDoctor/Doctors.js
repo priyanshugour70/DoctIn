@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function () {
+export default function Doct () {
     return (
         <div>
             <h1 className="text-gray-900 text-3xl text-center ">
