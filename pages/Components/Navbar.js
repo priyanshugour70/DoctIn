@@ -245,11 +245,6 @@ const navListItems = [
         icon: CubeTransparentIcon,
         lnk: "./VideoConsult",
     },
-    {
-        label: "Surgeries",
-        icon: CodeBracketSquareIcon,
-        lnk: "./Surgeries",
-    },
 ];
 
 // function NavList() {
