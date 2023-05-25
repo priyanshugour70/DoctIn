@@ -13,6 +13,7 @@
         "@heroicons/react": "^2.0.18",
         "@material-tailwind/react": "^1.4.2",
         "@next/font": "^13.3.1",
+        "bootstrap": "^5.2.3",
         "daisyui": "^2.51.5",
         "get-google-fonts": "^1.2.2",
         "next": "12.3.0",
