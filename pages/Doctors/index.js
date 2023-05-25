@@ -176,9 +176,9 @@ const index = () => {
                 <div className="relative z-10 gap-5 items-center lg:flex">
                     <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
                         <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-                            build your websites with{" "}
+                            build you with{" "}
                             <span className="text-indigo-600">
-                                high performance
+                            General Medicine
                             </span>
                         </h3>
                         <p className="text-gray-500 leading-relaxed mt-3">
@@ -186,11 +186,10 @@ const index = () => {
                             finibus eget metus. Cras aliquam ante ut tortor
                             posuere feugiat. Duis sodales nisi id porta lacinia.
                         </p>
-                        <a
-                            className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
-                            href="#"
-                        >
-                            Try it out
+                        <p className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center">
+                            <Link href="/Doctors/GeneralMedicine">
+                            Consult Now
+                            </Link>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6 ml-1 duration-150"
@@ -205,7 +204,7 @@ const index = () => {
                                     d="M13 7l5 5m0 0l-5 5m5-5H6"
                                 />
                             </svg>
-                        </a>
+                        </p>
                     </div>
                     <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
                         <img
@@ -236,9 +235,9 @@ const index = () => {
                     </div>
                     <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-right">
                         <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-                            build your websites with{" "}
+                            build you with{" "}
                             <span className="text-indigo-600">
-                                high performance
+                            Neurologist
                             </span>
                         </h3>
                         <p className="text-gray-500 leading-relaxed mt-3">
@@ -246,11 +245,10 @@ const index = () => {
                             finibus eget metus. Cras aliquam ante ut tortor
                             posuere feugiat. Duis sodales nisi id porta lacinia.
                         </p>
-                        <a
+                        <p
                             className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
                             href="#"
                         >
-                            Try it out
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6 mr-1 duration-150"
@@ -263,7 +261,10 @@ const index = () => {
                                     // clip-rule="evenodd"
                                 />
                             </svg>
-                        </a>
+                            <Link href="/Doctors/Neurologist">
+                            Consult Now
+                            </Link>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -273,9 +274,9 @@ const index = () => {
                 <div className="relative z-10 gap-5 items-center lg:flex">
                     <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
                         <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-                            build your websites with{" "}
+                            build you with{" "}
                             <span className="text-indigo-600">
-                                high performance
+                            Cardiologist
                             </span>
                         </h3>
                         <p className="text-gray-500 leading-relaxed mt-3">
@@ -283,11 +284,13 @@ const index = () => {
                             finibus eget metus. Cras aliquam ante ut tortor
                             posuere feugiat. Duis sodales nisi id porta lacinia.
                         </p>
-                        <a
+                        <p
                             className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
                             href="#"
                         >
-                            Try it out
+                            <Link href="/Doctors/Cardiologist">
+                            Consult Now
+                            </Link>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6 ml-1 duration-150"
@@ -302,7 +305,7 @@ const index = () => {
                                     d="M13 7l5 5m0 0l-5 5m5-5H6"
                                 />
                             </svg>
-                        </a>
+                        </p>
                     </div>
                     <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
                         <img

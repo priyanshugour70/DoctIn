@@ -15,6 +15,7 @@
         "@next/font": "^13.3.1",
         "bootstrap": "^5.2.3",
         "daisyui": "^2.51.5",
+        "flowbite": "^1.5.2",
         "get-google-fonts": "^1.2.2",
         "leaflet": "^1.9.4",
         "mapbox-gl": "^2.15.0",
