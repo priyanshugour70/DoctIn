@@ -94,7 +94,7 @@ const Cardiologist = () => {
           href="#"
           className="px-4 py-2 text-gray-100 bg-blue-500 rounded-md dark:bg-blue-400 dark:hover:bg-blue-500 hover:bg-blue-600"
         >
-          Learn more
+          Cardio
         </a>
       </div>
       <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
