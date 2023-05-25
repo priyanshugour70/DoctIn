@@ -19,44 +19,45 @@ const people = [
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
     {
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
     {
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
     {
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
     {
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
     {
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
     {
         name: "Leslie Alexander",
         role: "Co-Founder / CEO",
         imageUrl: "/Images/Doctors/Doctor1.avif",
-        Link: '/Doctors',
+        Link: '/NearestDoctor/DoctProfile',
     },
+    
 
     // More people...
 ];

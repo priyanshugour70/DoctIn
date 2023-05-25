@@ -14,7 +14,7 @@ const MapboxMap = () => {
           container: mapContainer.current,
           style: 'mapbox://styles/mapbox/streets-v12', // Specify the map style here
           center: [0, 0], // Set an initial center point
-          zoom: 118, // Set the initial zoom level
+          zoom: 10, // Set the initial zoom level
         });
 
         // Add navigation controls to the map
