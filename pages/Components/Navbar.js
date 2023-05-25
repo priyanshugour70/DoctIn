@@ -245,11 +245,11 @@ const navListItems = [
         icon: UserCircleIcon,
         lnk: "./Medicine",
     },
-    {
-        label: "Video Consult",
-        icon: CubeTransparentIcon,
-        lnk: "./VideoConsult",
-    },
+    // {
+    //     label: "Video Consult",
+    //     icon: CubeTransparentIcon,
+    //     lnk: "./VideoConsult",
+    // },
 ];
 
 function NavList() {

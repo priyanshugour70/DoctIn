@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const index = () => {
   return (
-    <div>Medicine index</div>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 
