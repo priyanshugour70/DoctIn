@@ -1,6 +1,6 @@
 import React from "react";
 import MapboxMap from "./MapboxMap";
-import Doctors from "./Doctors";
+import Doct from "./Doctors";
 
 const Index = () => {
     return (
@@ -11,7 +11,7 @@ const Index = () => {
                 </div>
                 <div className="Z-10 container px-5 py-20 mx-auto flex">
                     <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-5 md:mt-0 relative z-10 shadow-md">
-                        <Doctors />
+                        <Doct />
                     </div>
                 </div>
             </section>

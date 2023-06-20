@@ -11,7 +11,7 @@ export default function DoctProfile() {
         About
       </p>
       <h2 className="pb-2 text-2xl font-bold text-center text-gray-800 md:text-4xl dark:text-gray-300">
-        Dr. ABC
+      Dr. Ajit Verma
       </h2>
       <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
         <div className="flex-1 h-2 bg-blue-200"></div>
@@ -20,7 +20,7 @@ export default function DoctProfile() {
       </div>
       <div className="relative max-w-xl mx-auto">
         <img
-          src="https://i.postimg.cc/j5L5bX2d/pexels-andrea-piacquadio-3757946.jpg"
+          src="https://neuro-clinic.in/images/slide7.jpg"
           alt=""
           className="relative z-20 object-cover w-full rounded-2xl h-96"
         />
@@ -277,12 +277,10 @@ export default function DoctProfile() {
         <div className="bottom-0 z-40 mt-10 -mb-20 lg:absolute lg:right-0 lg:-mr-44 lg:mt-0 ">
           <div className="w-full p-8 border shadow-sm dark:border-gray-700 bg-gray-50 dark:bg-gray-700 lg:w-96 rounded-2xl">
             <h2 className="mb-4 text-4xl font-bold text-gray-600 dark:text-gray-300">
-              Hey MySelf ABC
+              Myself
             </h2>
             <p className="pb-4 mb-4 text-gray-600 dark:text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur domino act Lorem ipsum
-              dolor sit amet, consectetur domino act Lorem ipsum dolor sit amet,
-              consectetur domino act
+            Dr. Ajit Verma is one of the most trusted neurologists in Bhopal, currently practicing as a Consultant in the Neurology department of Bansal Hospital Bhopal. 
             </p>
           </div>
         </div>
@@ -302,14 +300,12 @@ export default function DoctProfile() {
             Doctor
           </span>
           <h2 className="mb-4 text-3xl font-bold md:text-4xl dark:text-gray-300">
-            Lorem ipsum dolor sit amet
+            About Dr. Ajit Verma
           </h2>
           <p className="mb-6 leading-loose text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem
-            ea necessitatibus voluptates aliquid rerum officiis explicabo
-            laborum molestiae id Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Cum quidem ea necessitatibus voluptates aliquid
-            rerum officiis explicabo laborum molestiae...
+          He has an experience of over 40 years of treating patients with migraine and other types of headaches and is currently one of the best migraine specialists in Bhopal. He completed his graduation(MBBS) from Gandhi Medical College, Bhopal in 1982 and later went on to pursue his master’s (MD) in General medicine from Barkatullah University, Bhopal in the year 1986. Dr. Verma provides treatment for neurological disorders with a speciality in treating patients with migraine and is one of the most trusted headache doctors in Bhopal.
+
+
           </p>
           <Link
             href="/NearestDoctor/ConsultNow"
@@ -329,7 +325,7 @@ export default function DoctProfile() {
   <div className="inline-block mb-3 overflow-hidden text-xs text-white bg-blue-500 md:rounded-full h-96 sm:w-64 sm:h-64">
     <img
       className="object-cover w-full h-full transition-all hover:scale-110"
-      src="https://i.postimg.cc/bNyr5cJq/pexels-anastasia-shuraeva-5704720.jpg"
+      src="https://bansalhospital.com/wp-content/uploads/2020/09/Ajit-Verma.jpg"
       alt=""
     />
   </div>
@@ -337,14 +333,13 @@ export default function DoctProfile() {
     <div>
       <h2 className="mb-2 text-2xl font-bold dark:text-gray-300">
         {" "}
-        Saleen Doe
+        Dr. Ajit Verma
       </h2>
       <p className="mb-4 text-sm font-medium text-blue-500 dark:text-blue-400">
-        Director
+      Consultant -- Neurology
       </p>
       <p className="mb-6 text-sm text-gray-500 dark:text-gray-400">
-        Lorem ipsum dolor sit amet, consectetu incididunt ut dolore magna
-        aliqua. Ut enim ad minim veniam
+      Dr. Ajit Verma is a Neurologist and General Physician in Shahpura, Bhopal and has an experience of 40 years in these fields.
       </p>
       <div className="flex">
         <span className="inline-block mr-5 text-gray-700 dark:text-gray-400 hover:text-blue-500">
@@ -403,8 +398,7 @@ export default function DoctProfile() {
         Testimonials{" "}
       </h1>
       <p className="max-w-xl mx-auto text-gray-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae quam
-        nostrum harum non in at eaque quibusdam eum ratione.
+      Good experience felling nice while talking with doctor and staff. Full satisfaction about treatment and discussion about looking forward.
       </p>
     </div>
     <div className="flex ">
@@ -426,16 +420,16 @@ export default function DoctProfile() {
               </span>
               <img
                 className="object-cover w-full h-full rounded-full"
-                src="https://i.postimg.cc/gk8KvyTN/ehsan-ahmadi-vs-Wy6nchc-Os-unsplash.jpg"
+                src="https://images.pexels.com/photos/938639/pexels-photo-938639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
             </div>
             <div className="info">
               <h2 className="text-lg font-bold text-black dark:text-white">
-                Hugh Denims
+                Arjun Kumar
               </h2>
               <span className="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
-                Game Developer
+                Data Analyst
               </span>
               <span className="flex mt-2 text-orange-500 gap-x-0.5">
                 <svg
@@ -497,9 +491,7 @@ export default function DoctProfile() {
             </div>
             <div className="relative z-20 p-8">
               <p className="text-base leading-7 text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                quidem ea necessitatibus voluptates aliquid rerum officiis
-                explicabo laborum molestiae id
+              "Dr. Ajit Verma is a highly experienced and knowledgeable physician. His expertise in neurology and general medicine is unmatched. I am grateful for his exceptional care and would highly recommend him to anyone seeking medical attention." - Arjun Kumar
               </p>
             </div>
           </div>
@@ -522,13 +514,13 @@ export default function DoctProfile() {
               <img
                 className="object-cover w-full h-full rounded-full"
                 src="
-                              https://i.postimg.cc/KvrSzTxg/alexandru-zdrobau-dj-RG1v-B1pw-unsplash.jpg"
+                https://images.pexels.com/photos/730056/pexels-photo-730056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
             </div>
             <div className="info">
               <h2 className="text-lg font-bold text-black dark:text-white">
-                Alexander Waters
+                Rashmi Patidar
               </h2>
               <span className="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
                 CEO
@@ -593,9 +585,7 @@ export default function DoctProfile() {
             </div>
             <div className="relative z-20 p-8">
               <p className="text-base leading-7 text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                quidem ea necessitatibus voluptates aliquid rerum officiis
-                explicabo laborum molestiae id
+              "Dr. Ajit Verma is an exceptional neurologist and general physician who has been treating me for years. His vast experience, medical knowledge, and compassionate approach have helped me manage my health issues effectively. I highly recommend him to anyone seeking quality healthcare." - Rashimi Patidar.
               </p>
             </div>
           </div>
@@ -617,16 +607,16 @@ export default function DoctProfile() {
               </span>
               <img
                 className="object-cover w-full h-full rounded-full"
-                src="https://i.postimg.cc/wj9DLCJj/yunming-wang-G9f4-Enb8-XVM-unsplash.jpg"
+                src="https://images.pexels.com/photos/3236651/pexels-photo-3236651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
             </div>
             <div className="info">
               <h2 className="text-lg font-bold text-black dark:text-white">
-                Dustin Heathens
+                Khushi Patel
               </h2>
               <span className="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
-                Mind Controller
+                SWE-II at Google
               </span>
               <span className="flex mt-2 text-orange-500 gap-x-0.5">
                 <svg
@@ -688,9 +678,7 @@ export default function DoctProfile() {
             </div>
             <div className="relative z-20 p-8">
               <p className="text-base leading-7 text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                quidem ea necessitatibus voluptates aliquid rerum officiis
-                explicabo laborum molestiae id
+              "Dr. Ajit Verma is a highly experienced and knowledgeable physician. He provided me with excellent care and attention during my visit to Bansal Hospital. I would highly recommend him to anyone seeking medical assistance." - Khushi Patel
               </p>
             </div>
           </div>
