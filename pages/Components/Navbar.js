@@ -240,11 +240,11 @@ const navListItems = [
         icon: CodeBracketSquareIcon,
         lnk: "./NearestDoctor",
     },
-    {
-        label: "Medicine",
-        icon: UserCircleIcon,
-        lnk: "./Medicine",
-    },
+    // {
+    //     label: "Medicine",
+    //     icon: UserCircleIcon,
+    //     lnk: "./Medicine",
+    // },
     // {
     //     label: "Video Consult",
     //     icon: CubeTransparentIcon,
