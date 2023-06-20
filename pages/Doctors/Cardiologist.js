@@ -21,12 +21,10 @@ const Cardiologist = () => {
     <div className="flex flex-wrap items-center">
       <div className="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
         <h2 className="mb-4 text-2xl font-bold text-gray-700 dark:text-gray-300">
-          We are providing a better facility
+          We are providing a better Doctors
         </h2>
         <p className="mb-4 text-base leading-7 text-gray-500 dark:text-gray-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam
+        A cardiologist is a medical specialist who diagnoses and treats heart-related conditions. They perform tests, prescribe medications, and may perform procedures such as angioplasty or implanting pacemakers to help manage heart health.
         </p>
         <ul className="mb-10">
           <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
@@ -42,7 +40,7 @@ const Cardiologist = () => {
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
               </svg>
             </span>
-            Art and Programs
+            specialist physician
           </li>
           <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
             <span className="mr-3 text-blue-500 dark:text-blue-400">
@@ -57,7 +55,7 @@ const Cardiologist = () => {
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
               </svg>
             </span>
-            Value for money
+            Heart specialist doctor
           </li>
           <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
             <span className="mr-3 text-blue-500 dark:text-blue-400">
@@ -87,7 +85,7 @@ const Cardiologist = () => {
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
               </svg>
             </span>
-            Successful Growth for business
+            Successful Growth.
           </li>
         </ul>
         <a
@@ -99,7 +97,7 @@ const Cardiologist = () => {
       </div>
       <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
         <img
-          src="https://i.postimg.cc/HsSPvTq8/pexels-fauxels-3184357.jpg"
+          src="https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
           className="relative z-40 object-cover w-full rounded-md md:h-96 h-44"
         />

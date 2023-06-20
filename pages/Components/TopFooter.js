@@ -12,7 +12,7 @@ const TopFooter = () => {
                                     href="#"
                                     className="text-gray-500 underline transition hover:opacity-75"
                                 >
-                                    priyanshugournotes1@gmail.com
+                                    FirziDoctersIn@gmail.com
                                 </Link>
                             </li>
                             {/* <li>

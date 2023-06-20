@@ -53,11 +53,11 @@ const SignIn = () => {
                             Forgot Password?
                         </a>
                     </div>
-                    <div className="flex flex-col items-center">
+                    <Link href="/" className="flex flex-col items-center">
                         <button className="mt-5 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                             <span className="ml-3">Sign In</span>
                         </button>
-                    </div>
+                    </Link>
                     <div className="my-5 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
                         <p className="mx-4 mb-0 text-center font-semibold text-slate-500">
                             Or
